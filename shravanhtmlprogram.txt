@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>student information form</title>
+</head>
+<body>
+ <h1 style="color: red;">student information</h1>
+    <form action="/action_page.html" method="get" target="_blank">
+        <label>name</label>
+        <input type="text"name="name"required>
+        <br>
+        <label>email</label>
+        <input type="email"name="email"required>
+        <br>
+        <label>password</label>
+        <input type="password"name="password"required>
+        <br>
+        <input type="checkbox" name="vehicle1" value="bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" value="car">
+        <label for="vehicle2"> I have a car</label><br>
+<label for="radio">radio</label><br>
+<input type="radio" id="cat" name-="animal" value="cat">
+<label for="cat">cat</label><br>
+<input type="radio" id="dog" name="animal" value="dog">
+<label for="dog">dog</label><br>
+<label for="email">enter a email</label>
+<input type="email" id="email" placeholder="abc@gmail.com"><br>
+<input type="submit" value="submit"><br>
+<input type="reset" value="reset"><br>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
